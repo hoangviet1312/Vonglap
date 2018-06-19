@@ -5,6 +5,7 @@ public class SoNguyenToNhoHon100 {
             for (int i = number - 1; i > 1; i--) {
                 if (number % i == 0) {
                     count++;
+                    break;
                 }
             }
             if (count == 1) {
